@@ -28,9 +28,9 @@ import javax.annotation.Nullable;
 import org.apache.commons.lang.StringUtils;
 import org.sonar.api.CoreProperties;
 import org.sonar.api.batch.InstantiationStrategy;
-import org.sonar.api.batch.ScannerSide;
 import org.sonar.api.batch.rule.Severity;
 import org.sonar.api.config.Settings;
+import org.sonar.api.scanner.ScannerSide;
 
 @ScannerSide
 @InstantiationStrategy(InstantiationStrategy.PER_BATCH)
