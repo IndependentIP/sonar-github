@@ -74,6 +74,19 @@
     </repository>
   </repositories>
 
+  <distributionManagement>
+    <repository>
+      <id>Fuga</id>
+      <name>Fuga - Releases</name>
+      <url>http://nexus.fuga.com:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>Fuga</id>
+      <name>Fuga - Snapshots</name>
+      <url>http://nexus.fuga.com:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>org.sonarsource.sonarqube</groupId>
